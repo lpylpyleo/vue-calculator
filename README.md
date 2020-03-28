@@ -1,4 +1,5 @@
-# caculator-demo
+# calculator-demo
+仿小米计算器，Vue制作
 
 ## Project setup
 ```

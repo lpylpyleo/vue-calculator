@@ -1,18 +1,28 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home">
+    <calculation-history/>
+    <key-board/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CalculationHistory from "../components/CalculationHistory";
+import KeyBoard from "../components/KeyBoard";
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    CalculationHistory,
+    KeyBoard
   }
 }
 </script>
+
+<style scoped>
+  #home{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
