@@ -26,16 +26,18 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        user-select: none;
     }
 
     #nav {
-        padding: 30px;
+        padding: 15px;
 
         a {
             font-weight: bold;
             color: #2c3e50;
             margin: 0 20px;
             text-decoration-line: none;
+            font-size: 18px;
 
             &.router-link-exact-active {
                 color: #ff6700;

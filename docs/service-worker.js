@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-calculator/precache-manifest.617c7d3ef10a051b8a67bbe54535237b.js"
+  "/vue-calculator/precache-manifest.2c3435e98c4c128948d4607fa13e6013.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "caculator-demo"});
