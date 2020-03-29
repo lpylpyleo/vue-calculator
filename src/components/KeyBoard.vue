@@ -1,7 +1,7 @@
 <template>
     <div id="keyboard">
-        <div class="text" :style="{color: isNaN(button)?'#ff6700':'black'}" :key="button" v-for="button in buttons"
-             @click="log">
+        <div class="text" :style="{color: getColor(button)}" :key="button" v-for="button in buttons"
+             @click="handleClick">
             {{button}}
         </div>
     </div>
@@ -16,7 +16,7 @@
             }
         },
         methods: {
-            log(e) {
+            handleClick(e) {
                 let char = e.target.innerText;
                 // console.log(char + ' pressed');
                 switch (char) {
@@ -26,12 +26,19 @@
                     case '⌫':
                         this.$store.commit('del');
                         break;
-                    case '':
-                        break;
+                    // case '％':
+                    //     this.$store.commit('append','%');
+                    //     break;
                     default:
                         this.$store.commit('append', char);
                 }
+            },
+            getColor(str){
+                return isNaN(str)?'#ff6700':'black';
             }
+        },
+        computed:{
+
         }
     }
 </script>

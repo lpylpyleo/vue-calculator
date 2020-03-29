@@ -19,7 +19,7 @@
             },
             result() {
                 if (!isNaN(this.$store.state.expression.slice(-1))) {
-                    return eval(this.$store.state.expression.replace(/×/, '*').replace(/÷/, '/'));
+                    return eval(this.$store.state.expression.replace(/×/g, '*').replace(/÷/g, '/').replace(/％/g,'%'));
                 } else {
                     return this.$store.state.expression;
                 }

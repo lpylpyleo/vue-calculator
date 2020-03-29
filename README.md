@@ -1,5 +1,6 @@
 # calculator-demo
-仿小米计算器，Vue制作
+仿小米计算器，Vue制作   
+在线页面[https://lpylpyleo.github.io/vue-calculator/](https://lpylpyleo.github.io/vue-calculator/)
 
 ## Project setup
 ```

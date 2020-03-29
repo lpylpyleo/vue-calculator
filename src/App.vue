@@ -11,6 +11,8 @@
 </template>
 
 <style lang="scss">
+    $primary-color: #ff6700;
+
     html, body {
         height: 100%;
         margin: 0;
@@ -40,7 +42,7 @@
             font-size: 18px;
 
             &.router-link-exact-active {
-                color: #ff6700;
+                color: $primary-color;
             }
         }
     }
