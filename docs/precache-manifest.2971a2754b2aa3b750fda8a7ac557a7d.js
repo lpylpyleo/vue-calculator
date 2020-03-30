@@ -1,26 +1,26 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2166b381d9adee116f12",
-    "url": "/vue-calculator/css/app.1c8c2e3f.css"
+    "revision": "7e6f3d64d80dfeb20356",
+    "url": "/vue-calculator/css/app.79ae4f0b.css"
   },
   {
-    "revision": "86f91960e9450e24d5ef65d77bc42de0",
+    "revision": "8237925bdfbb30567bc9bff2f4c1fe53",
     "url": "/vue-calculator/index.html"
   },
   {
-    "revision": "aee550d9906c60c88932",
-    "url": "/vue-calculator/js/about.878e20c0.js"
+    "revision": "3c4272cd32a3d550043a",
+    "url": "/vue-calculator/js/about.8ef126de.js"
   },
   {
-    "revision": "2166b381d9adee116f12",
-    "url": "/vue-calculator/js/app.c269c9c8.js"
+    "revision": "7e6f3d64d80dfeb20356",
+    "url": "/vue-calculator/js/app.12bae18e.js"
   },
   {
     "revision": "753538d280769fef6715",
     "url": "/vue-calculator/js/chunk-vendors.240ba63d.js"
   },
   {
-    "revision": "c795750ae58a2a4ac4a545139aeb1ab9",
+    "revision": "b5dcee03e5591b0cb64f5cdd66684ea9",
     "url": "/vue-calculator/manifest.json"
   },
   {

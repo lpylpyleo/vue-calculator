@@ -9,10 +9,12 @@ export default new Vuex.Store({
     },
     mutations: {
         append(state, str) {
-            if (state.expression !== '0' ||isNaN(str) ) {
-                state.expression += str;
-            } else {
-                state.expression = str;
+            if (state.expression.length < 16) {
+                if (state.expression !== '0' || isNaN(str)) {
+                    state.expression += str;
+                } else {
+                    state.expression = str;
+                }
             }
         },
         del(state) {
