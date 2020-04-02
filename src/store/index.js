@@ -11,7 +11,12 @@ export default new Vuex.Store({
         append(state, str) {
             if (state.expression.length < 16) {
                 if (state.expression !== '0' || isNaN(str)) {
-                    state.expression += str;
+                    //如果最后一位是符号且追加字符串也是符号，则替换最后一位；否则，追加
+                    if (isNaN(state.expression.substr(state.expression.length - 1, 1)) && isNaN(str)) {
+                        state.expression = state.expression.substring(0, state.expression.length - 1) + str;
+                    } else {
+                        state.expression += str;
+                    }
                 } else {
                     state.expression = str;
                 }

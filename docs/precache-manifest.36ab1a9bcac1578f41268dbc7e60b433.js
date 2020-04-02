@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e6f3d64d80dfeb20356",
+    "revision": "36d169369600867e28ec",
     "url": "/vue-calculator/css/app.79ae4f0b.css"
   },
   {
-    "revision": "8237925bdfbb30567bc9bff2f4c1fe53",
+    "revision": "e8f61c0e4b1be1e6feb0070ff8a52cca",
     "url": "/vue-calculator/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-calculator/js/about.8ef126de.js"
   },
   {
-    "revision": "7e6f3d64d80dfeb20356",
-    "url": "/vue-calculator/js/app.12bae18e.js"
+    "revision": "36d169369600867e28ec",
+    "url": "/vue-calculator/js/app.9d8cee9f.js"
   },
   {
     "revision": "753538d280769fef6715",
