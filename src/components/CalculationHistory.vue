@@ -30,10 +30,10 @@
 
 <style scoped>
     .calculation-history {
-        /*background-color: aqua;*/
-        /*height: 100%;*/
         flex-grow: 1;
         padding: 0 24px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .inner {
